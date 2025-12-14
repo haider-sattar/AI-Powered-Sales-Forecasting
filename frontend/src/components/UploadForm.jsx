@@ -95,7 +95,7 @@ export default function UploadForm({
     formData.append("forecast_days", forecastDays);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/forecast", {
+      const response = await fetch("https://sales-forecast-api-6cw8.onrender.com/forecast", {
         method: "POST",
         body: formData,
       });
