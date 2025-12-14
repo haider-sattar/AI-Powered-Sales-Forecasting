@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://sales-forecast-api-6cw8.onrender.com";
 
 export const getForecast = async (formData) => {
   try {
