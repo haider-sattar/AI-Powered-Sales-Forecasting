@@ -64,7 +64,8 @@ export default function Dashboard() {
       {isLoading ? (
         <div className="chart-container loading">
           <div className="spinner"></div>
-          <p>Generating forecast predictions...</p>
+          <p>Generating forecast predictions…</p>
+<p>This service is hosted on a free tier, so the first response may take a little longer. Thank you for your patience.</p>
         </div>
       ) : forecastData.length > 0 ? (
         <div className="chart-container">
